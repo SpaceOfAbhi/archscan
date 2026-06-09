@@ -1,8 +1,8 @@
 name: archscan
 description: AI-powered Flutter architecture analyzer
-homepage: https://github.com/SpaceOfAbhi/flutter_arch
-repository: https://github.com/SpaceOfAbhi/flutter_arch
-issue_tracker: https://github.com/SpaceOfAbhi/flutter_arch/issues
+homepage: https://github.com/SpaceOfAbhi/archscan
+repository: https://github.com/SpaceOfAbhi/archscan
+issue_tracker: https://github.com/SpaceOfAbhi/archscan/issues
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
