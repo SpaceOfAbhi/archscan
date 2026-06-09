@@ -3,7 +3,7 @@ description: AI-powered Flutter architecture analyzer
 homepage: https://github.com/SpaceOfAbhi/archscan
 repository: https://github.com/SpaceOfAbhi/archscan
 issue_tracker: https://github.com/SpaceOfAbhi/archscan/issues
-version: 1.0.0
+version: 1.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
