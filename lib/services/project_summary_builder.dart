@@ -2,6 +2,8 @@ class ProjectSummaryBuilder {
   String build({
     required List<String> files,
     required List<String> dependencies,
+    required String folderTree,
+    required String architectureSignals,
   }) {
     final buffer = StringBuffer();
 
@@ -21,6 +23,16 @@ class ProjectSummaryBuilder {
     for (final file in files) {
       buffer.writeln(file);
     }
+
+    buffer.writeln('Folder Structure:');
+
+    buffer.writeln(folderTree);
+
+    buffer.writeln();
+
+    buffer.writeln('Architecture Signals:');
+
+    buffer.writeln(architectureSignals);
 
     return buffer.toString();
   }
