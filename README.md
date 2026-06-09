@@ -1,8 +1,8 @@
-# flutter_arch
+# archscan
 
 AI-powered Flutter architecture analyzer for the terminal.
 
-`flutter_arch` analyzes your Flutter project's structure, dependencies, and architecture signals to identify the architecture pattern being used and provide architecture-focused feedback.
+`archscan` analyzes your Flutter project's structure, dependencies, and architecture signals to identify the architecture pattern being used and provide architecture-focused feedback.
 
 ---
 
@@ -24,13 +24,13 @@ AI-powered Flutter architecture analyzer for the terminal.
 Activate globally:
 
 ```bash
-dart pub global activate flutter_arch
+dart pub global activate archscan
 ```
 
 Verify installation:
 
 ```bash
-flutter_arch version
+archscan version
 ```
 
 ---
@@ -40,7 +40,7 @@ flutter_arch version
 Configure your Groq API key:
 
 ```bash
-flutter_arch key
+archscan key
 ```
 
 Enter your API key when prompted.
@@ -60,7 +60,7 @@ cd my_flutter_project
 Run analysis:
 
 ```bash
-flutter_arch
+archscan
 ```
 
 ---
@@ -69,10 +69,10 @@ flutter_arch
 
 | Command | Description |
 |----------|-------------|
-| `flutter_arch` | Analyze the current Flutter project |
-| `flutter_arch key` | Update the stored Groq API key |
-| `flutter_arch help` | Display available commands |
-| `flutter_arch version` | Display installed version |
+| `archscan` | Analyze the current Flutter project |
+| `archscan key` | Update the stored Groq API key |
+| `archscan help` | Display available commands |
+| `archscan version` | Display installed version |
 
 ---
 
@@ -124,7 +124,7 @@ flutter_arch
 
 ## 🔍 How It Works
 
-`flutter_arch` analyzes:
+`archscan` analyzes:
 
 - Project dependencies
 - Folder structure
@@ -137,7 +137,7 @@ The collected project metadata is sent to a Groq-hosted LLM, which performs arch
 
 ## 🔒 Privacy
 
-`flutter_arch` focuses on project structure analysis.
+`archscan` focuses on project structure analysis.
 
 The following information may be sent to the AI model:
 

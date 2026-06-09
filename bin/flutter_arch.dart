@@ -1,27 +1,27 @@
 import 'dart:io';
 
-import 'package:flutter_arch/services/architecture_signal_builder.dart';
-import 'package:flutter_arch/services/config_service.dart';
-import 'package:flutter_arch/services/folder_tree_builder.dart';
-import 'package:flutter_arch/services/groq_service.dart';
-import 'package:flutter_arch/services/project_scanner.dart';
-import 'package:flutter_arch/services/project_summary_builder.dart';
-import 'package:flutter_arch/services/pubspec_reader.dart';
+import 'package:archscan/services/architecture_signal_builder.dart';
+import 'package:archscan/services/config_service.dart';
+import 'package:archscan/services/folder_tree_builder.dart';
+import 'package:archscan/services/groq_service.dart';
+import 'package:archscan/services/project_scanner.dart';
+import 'package:archscan/services/project_summary_builder.dart';
+import 'package:archscan/services/pubspec_reader.dart';
 
 Future<void> main(List<String> arguments) async {
   final config = ConfigService();
 
   if (arguments.contains('help')) {
     print('''
-      flutter_arch
+      archscan
 
       Analyze Flutter project architecture using AI.
 
       Commands:
 
-      flutter_arch        Analyze current project
-      flutter_arch key    Update Groq API key
-      flutter_arch help   Show help
+      archscan        Analyze current project
+      archscan key    Update Groq API key
+      archscan help   Show help
       ''');
 
     return;

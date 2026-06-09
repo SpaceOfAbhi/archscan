@@ -4,7 +4,7 @@ import 'dart:io';
 class ConfigService {
   final Directory configDir =
       Directory(
-        '${Platform.environment['USERPROFILE'] ?? Platform.environment['HOME']}\\.flutter_arch',
+        '${Platform.environment['USERPROFILE'] ?? Platform.environment['HOME']}\\.archscan',
       );
 
   File get configFile =>
