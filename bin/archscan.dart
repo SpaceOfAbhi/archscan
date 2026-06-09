@@ -95,14 +95,12 @@ Future<void> main(List<String> arguments) async {
     architectureSignals: architectureSignals,
   );
 
-  print(summary);
-
   print('\n🔍 Analyzing project architecture...\n');
 
   try {
     final review = await GroqService(apiKey).analyzeProject(summary);
      final stopwatch = Stopwatch()..start();
-
+    print('✅ Analysis complete:\n');
     print(review);
     stopwatch.stop();
   } catch (e) {
